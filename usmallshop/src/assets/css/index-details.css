@@ -1,0 +1,303 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.outside {
+  width: 7.5rem;
+  margin: 0 auto;
+}
+.outside .header {
+  width: 7.5rem;
+  height: 0.9rem;
+  background-color: #f26b11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.3rem;
+  color: white;
+}
+.outside .header img {
+  width: 0.17rem;
+  height: 0.29rem;
+  margin-left: 0.2rem;
+}
+.outside .header .right {
+  width: 0.55rem;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0.2rem;
+}
+.outside .header .right .box {
+  background-color: white;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+}
+.outside .image1 img {
+  width: 7.5rem;
+  height: 4.2rem;
+}
+.outside .text1 {
+  width: 7rem;
+  padding: 0 0.25rem;
+  height: 2rem;
+}
+.outside .text1 .text1_top {
+  font-size: 0.3rem;
+  color: #333333;
+  line-height: 0.5rem;
+  margin-top: 0.2rem;
+}
+.outside .text1 .text1_bottom {
+  font-size: 0.18rem;
+  line-height: 0.4rem;
+  margin-top: 0.2rem;
+  color: #adadad;
+}
+.outside .text1 .text1_bottom span {
+  font-size: 0.3rem;
+  color: #ed7f82;
+}
+.outside .jiange {
+  background-color: #f1f1ff;
+  height: 0.2rem;
+}
+.outside .text2 {
+  height: 1rem;
+  width: 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #adadad;
+}
+.outside .text2 .text2_left {
+  display: flex;
+  margin-left: 0.25rem;
+}
+.outside .text2 .text2_left .man {
+  height: 0.35rem;
+  width: 0.65rem;
+  box-sizing: border-box;
+  border: 0.01rem solid #ed7f82;
+  text-align: center;
+  border-radius: 0.04rem;
+  margin-right: 0.1rem;
+}
+.outside .text2 .text2_right {
+  margin-right: 0.25rem;
+}
+.outside .text2 .text2_right img {
+  width: 0.35rem;
+  height: 0.21rem;
+}
+.outside .text3 {
+  width: 7.5rem;
+  height: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.2rem;
+  line-height: 0.35rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #adadad;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.outside .text3 .text3_left {
+  margin-left: 0.25rem;
+}
+.outside .text3 .text3_right {
+  margin-right: 0.25rem;
+  display: flex;
+  box-sizing: border-box;
+  border: 0.01rem solid #adadad;
+  border-radius: 0.04rem;
+}
+.outside .text3 .text3_right .box1 {
+  width: 0.65rem;
+  height: 0.6rem;
+}
+.outside .text3 .text3_right .box2 {
+  width: 0.8rem;
+  height: 0.6rem;
+  box-sizing: border-box;
+  border-left: 0.01rem solid #adadad;
+  border-right: 0.01rem solid #adadad;
+}
+.outside .text4 {
+  height: 1.9rem;
+  width: 7rem;
+  padding: 0 0.25rem;
+}
+.outside .text4 .text4_top {
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.2rem;
+}
+.outside .text4 .text4_top .text4_top_right img {
+  width: 0.35rem;
+  height: 0.21rem;
+}
+.outside .text4 .text4_bottom {
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.18rem;
+  color: #adadad;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.outside .text4 .text4_bottom .text4_box1 {
+  height: 0.6rem;
+  width: 1.6rem;
+  background-color: #e43a3d;
+  color: white;
+  border-radius: 0.04rem;
+  margin-left: 0.7rem;
+}
+.outside .text4 .text4_bottom .text4_box2 {
+  height: 0.6rem;
+  width: 1.2rem;
+  background-color: #e1e1e3;
+  color: white;
+  border-radius: 0.04rem;
+  margin-left: 0.1rem;
+}
+.outside .text5 {
+  width: 7rem;
+  padding: 0 0.25rem;
+  height: 1rem;
+  font-size: 0.2rem;
+  line-height: 1rem;
+}
+.outside .image2 img {
+  width: 7.5rem;
+  height: 4.58rem;
+}
+.outside .image3 img {
+  width: 7.5rem;
+  height: 5.92rem;
+}
+.outside .image4 img {
+  width: 7.5rem;
+  height: 3.5rem;
+}
+.outside .image5 img {
+  width: 7.5rem;
+  height: 3.31rem;
+}
+.outside .text6 {
+  width: 7rem;
+  padding: 0 0.25rem;
+  height: 1rem;
+  font-size: 0.2rem;
+  line-height: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #adadad;
+}
+.outside .text7 {
+  height: 3.75rem;
+  width: 7.5rem;
+  font-size: 0.16rem;
+  color: #666666;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  border-bottom: 0.01rem solid #adadad;
+}
+.outside .text7 .text7_top {
+  margin-left: 0.25rem;
+}
+.outside .text7 .text7_footer {
+  margin-left: 0.25rem;
+}
+.outside .text7 .text7_bottom {
+  color: #333333;
+  margin-left: 0.25rem;
+}
+.outside .text7 .text7_images {
+  display: flex;
+  margin-left: 0.25rem;
+}
+.outside .text7 .text7_images .image1 img {
+  width: 1.54rem;
+  height: 1.51rem;
+}
+.outside .text7 .text7_images .image2 img {
+  width: 1.6rem;
+  height: 1.51rem;
+}
+.outside .text7 .text7_images .image3 img {
+  width: 1.54rem;
+  height: 1.51rem;
+}
+.outside .text8 {
+  width: 7rem;
+  height: 0.9rem;
+  padding: 0 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.16rem;
+  color: #adadad;
+}
+.outside .text8 .text8_right {
+  display: flex;
+}
+.outside .text8 .text8_right img {
+  width: 0.35rem;
+  height: 0.21rem;
+}
+.outside .footer {
+  background-color: white;
+  width: 7.5rem;
+  height: 1rem;
+  position: fixed;
+  bottom: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outside .footer .footer_left {
+  position: relative;
+  margin-left: 0.4rem;
+}
+.outside .footer .footer_left img {
+  width: 0.56rem;
+  height: 0.53rem;
+}
+.outside .footer .footer_left .red {
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #e6393b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 0.25rem;
+  color: white;
+  position: absolute;
+  top: -0.1rem;
+  left: 0.35rem;
+}
+.outside .footer .btn {
+  text-align: center;
+  line-height: 1rem;
+  display: flex;
+  color: white;
+  font-size: 0.3rem;
+}
+.outside .footer .btn .footer_conter {
+  width: 2.9rem;
+  height: 1rem;
+  background-color: #f26b11;
+}
+.outside .footer .btn .footer_right {
+  width: 2.9rem;
+  height: 1rem;
+  background-color: #e43a3d;
+}
